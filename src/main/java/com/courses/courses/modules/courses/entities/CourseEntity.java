@@ -19,7 +19,7 @@ import lombok.NonNull;
 @Data
 @Builder
 @Entity(name = "courses")
-public class course {
+public class CourseEntity {
   @Id
   @GeneratedValue(strategy = GenerationType.UUID)
   private UUID id;
